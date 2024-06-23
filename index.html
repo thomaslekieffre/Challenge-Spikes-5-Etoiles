@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./img/star_full.png">
+    <title>Rating</title>
+</head>
+
+<body class="p-0 m-0 flex items-center justify-center h-screen bg-purple-600">
+    <div class="w-88 h-82 bg-white rounded-lg p-6 border border-gray-300 space-y-4">
+        <div class="flex justify-end">
+            <div class="w-8 h-8 bg-no-repeat bg-center cursor-pointer"
+                style="background-image: url('./img/close button.png');" id="resetBtn"></div>
+        </div>
+        <h1 class="text-3xl font-semibold text-gray-800 text-center">Quel note donnerais-tu <br> à ce challenge ?</h1>
+        <div class="text-center text-gray-600 text-xl">
+            Bon j’espère que tu vas mettre 5 <br> évidemment, si ce n’est pas le cas <br> viens me dire pourquoi !
+        </div>
+        <div class=" flex justify-center mt-5">
+            <div class="flex space-x-2">
+                <div class="w-12 h-12 flex items-center justify-center rounded-full cursor-pointer">
+                    <img src="./img/star_empty.png" class="star" id="1" />
+                </div>
+                <div class="w-12 h-12 flex items-center justify-center rounded-full cursor-pointer">
+                    <img src="./img/star_empty.png" class="star" id="2" />
+                </div>
+                <div class="w-12 h-12 flex items-center justify-center rounded-full cursor-pointer">
+                    <img src="./img/star_empty.png" class="star" id="3" />
+                </div>
+                <div class="w-12 h-12 flex items-center justify-center rounded-full cursor-pointer">
+                    <img src="./img/star_empty.png" class="star" id="4" />
+                </div>
+                <div class="w-12 h-12 flex items-center justify-center rounded-full cursor-pointer">
+                    <img src="./img/star_empty.png" class="star" id="5" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
